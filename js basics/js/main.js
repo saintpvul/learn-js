@@ -2,11 +2,16 @@
 
 /* 
 
-CAll alert
+Data types
 
 */
 
 // Solution
 
-const BIRTHDAY = "18.04.1982"; // birthday is const value
-const age = somecode(BIRTHDAY); // we can change code in age var
+let name = "Ilya";
+
+alert(`hello ${1}`); // hello 1
+
+alert(`hello ${"name"}`); // hello name
+
+alert(`hello ${name}`); // hello ilya
