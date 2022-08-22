@@ -8,9 +8,5 @@ CAll alert
 
 // Solution
 
-let admin;
-let name = "John";
-
-admin = name;
-
-alert(admin);
+let ourPlanetName = "Earth planet";
+let currentVisitor = "Current visitor";
