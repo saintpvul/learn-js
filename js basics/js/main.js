@@ -1,3 +1,5 @@
+"use strict";
+
 /* 
 
 CAll alert
@@ -6,4 +8,9 @@ CAll alert
 
 // Solution
 
-alert("I'm JavaScript");
+let admin;
+let name = "John";
+
+admin = name;
+
+alert(admin);
