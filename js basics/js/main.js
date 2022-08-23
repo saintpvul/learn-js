@@ -8,8 +8,6 @@ base operators
 
 // Solution
 
-let a = 1,
-  b = 1;
+let a = 2;
 
-let c = ++a; // c 2, a 2
-let d = b++; // d 1, b 2
+let x = 1 + (a *= 2); // x 5, a 4
