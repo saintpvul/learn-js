@@ -2,16 +2,11 @@
 
 /* 
 
-Data types
+interaction
 
 */
 
 // Solution
 
-let name = "Ilya";
-
-alert(`hello ${1}`); // hello 1
-
-alert(`hello ${"name"}`); // hello name
-
-alert(`hello ${name}`); // hello ilya
+let name = prompt("Enter your name: ", "");
+alert(name);
