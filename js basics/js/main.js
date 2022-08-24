@@ -8,4 +8,4 @@ logical operators
 
 // Solution
 
-alert(alert(1) && alert(2)); // undefined
+alert(null || (2 && 3) || 4); // 3
