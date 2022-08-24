@@ -8,9 +8,13 @@ Conditional branching
 
 // Solution
 
-let ask = prompt("What is the official name of JavaScript?");
-if (ask == "ECMAScript") {
-  alert("Right!");
+let ask = prompt("Enter any number");
+if (ask > 0) {
+  alert(1);
+} else if (ask < 0) {
+  alert(-1);
+} else if (ask == 0) {
+  alert("0");
 } else {
-  alert("don't know? ECMAScript");
+  alert("it is not a number i guess");
 }
