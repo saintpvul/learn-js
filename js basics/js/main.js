@@ -8,6 +8,9 @@ Conditional branching
 
 // Solution
 
-if ("0") {
-  alert("Привет");
-} // true
+let ask = prompt("What is the official name of JavaScript?");
+if (ask == "ECMAScript") {
+  alert("Right!");
+} else {
+  alert("don't know? ECMAScript");
+}
