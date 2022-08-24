@@ -8,5 +8,11 @@ Conditional branching
 
 // Solution
 
-result = a + b < 4 ? "less than" : "more than";
-alert(result);
+message =
+  login == "employee"
+    ? "hi"
+    : login == "boss"
+    ? "hello"
+    : login == ""
+    ? "login is empty"
+    : "";
