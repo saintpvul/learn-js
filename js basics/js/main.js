@@ -2,17 +2,10 @@
 
 /* 
 
-Conditional branching
+logical operators
 
 */
 
 // Solution
 
-message =
-  login == "employee"
-    ? "hi"
-    : login == "boss"
-    ? "hello"
-    : login == ""
-    ? "login is empty"
-    : "";
+alert(null || 2 || undefined); //2
