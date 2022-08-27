@@ -8,8 +8,7 @@ While / for
 
 // Solution
 
-let i = 0;
-while (i < 3) {
-  alert(`number ${i}!`);
-  i++;
-}
+let check;
+do {
+  check = +prompt("Enter number from 100 to infinity: ", 0);
+} while (check <= 100 && check);
