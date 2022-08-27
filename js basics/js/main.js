@@ -9,5 +9,5 @@ While / for
 // Solution
 
 let i = 0;
-while (++i < 5) alert(i);
-// 4 / (1 + i) < 5  four times will be true. When 1 + i == 5 iteration will be break
+while (i++ < 5) alert(i);
+// 5 / i + 1 < 5 will return 5 and then stops
