@@ -8,5 +8,6 @@ While / for
 
 // Solution
 
-for (let i = 0; i < 5; ++i) alert(i);
-//  does the same thing cause we check if the i == true.
+for (let i = 2; i < 11; i++) {
+  console.log(i);
+}
