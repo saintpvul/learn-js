@@ -8,7 +8,11 @@ While / for
 
 // Solution
 
-let check;
-do {
-  check = +prompt("Enter number from 100 to infinity: ", 0);
-} while (check <= 100 && check);
+let prime = 10;
+
+nextPrime: for (let i = 2; i <= prime; i++) {
+  for (let j = 2; j < i; j++) {
+    if (i % j == 0) continue nextPrime;
+  }
+  console.log(i);
+}
