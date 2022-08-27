@@ -8,6 +8,5 @@ While / for
 
 // Solution
 
-let i = 0;
-while (i++ < 5) alert(i);
-// 5 /( i  < 5 )+ 1 will return 5 and then stops
+for (let i = 0; i < 5; i++) alert(i);
+// print 0 1 2 3 4 and then stops 'cause 5 is equal to 5 and is not true
