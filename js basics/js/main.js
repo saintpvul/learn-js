@@ -9,10 +9,5 @@ functins
 // Solution
 
 function checkAge(age) {
-  if (age > 18) {
-    return true;
-  }
-  // ...
-  return confirm("Родители разрешили?");
+  return age > 18 ? true : confirm("parents aproved?");
 }
-// it works the same way
