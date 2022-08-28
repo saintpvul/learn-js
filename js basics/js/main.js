@@ -8,6 +8,6 @@ functins
 
 // Solution
 
-function checkAge(age) {
-  return age > 18 || confirm("parents aproved?");
+function min(a, b) {
+  return a < b ? a : b;
 }
