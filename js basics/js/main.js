@@ -2,18 +2,8 @@
 
 /* 
 
-Arrow functions, the basics
+JavaScript specials
 
 */
 
 // Solution
-
-function ask(question, yes, no) {
-  if (confirm(question)) yes();
-  else no();
-}
-ask(
-  "Do you agree?",
-  () => alert("Agreed"),
-  () => alert("Canceled")
-);
