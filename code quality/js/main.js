@@ -2,7 +2,7 @@
 
 /* 
 
-Debugging in the browser
+Coding Style
 
 */
 
