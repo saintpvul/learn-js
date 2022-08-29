@@ -7,3 +7,5 @@ JavaScript specials
 */
 
 // Solution
+
+//complete js basics
