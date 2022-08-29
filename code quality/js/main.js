@@ -2,7 +2,7 @@
 
 /* 
 
-code quality
+Debugging in the browser
 
 */
 
