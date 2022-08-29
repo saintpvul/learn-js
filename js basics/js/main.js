@@ -2,7 +2,7 @@
 
 /* 
 
-function expression
+Arrow functions, the basics
 
 */
 
