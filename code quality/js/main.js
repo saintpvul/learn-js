@@ -2,10 +2,8 @@
 
 /* 
 
-comments
+Ninja code
 
 */
 
 // Solution
-
-//complete
