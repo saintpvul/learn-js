@@ -2,10 +2,8 @@
 
 /* 
 
-Ninja code
+Automated testing with Mocha
 
 */
 
 // Solution
-
-//complete
