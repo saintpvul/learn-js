@@ -2,10 +2,8 @@
 
 /* 
 
-object references and copying
+Garbage collection
 
 */
 
 // Solution
-
-//complete
