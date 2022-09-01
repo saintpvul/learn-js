@@ -8,13 +8,10 @@ Objects
 
 // Solution
 
-function isEmpty(obj) {
-  for (let key in obj) {
-    return false;
-  }
-  return true;
-}
+const user = {
+  name: "John",
+};
 
-let schedule = {};
-
-console.log(isEmpty(schedule));
+//
+user.name = "Pete";
+// the name key would be changed cause we don't change variable
