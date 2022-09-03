@@ -2,10 +2,8 @@
 
 /* 
 
-Garbage collection
+Object methods, "this"
 
 */
 
 // Solution
-
-//complete
