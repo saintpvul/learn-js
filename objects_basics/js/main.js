@@ -8,15 +8,20 @@ Object methods, "this"
 
 // Solution
 
-function makeUser() {
-  return {
-    name: "John",
-    ref: this,
-  };
-}
+let calculator = {
+  sum() {
+    return this.a + this.b;
+  },
 
-let user = makeUser();
+  mul() {
+    return this.a * this.b;
+  },
 
-alert(user.ref.name);
+  read() {
+    (this.a = +prompt("a?", 0)), (this.b = +prompt("b", 0));
+  },
+};
 
-// error. this is undefined
+calculator.read();
+alert(`sum = ${calculator.sum()}`);
+alert(`mul = ${calculator.mul()}`);
