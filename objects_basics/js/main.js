@@ -8,21 +8,17 @@ Constructor, operator "new"
 
 // Solution
 
-function Calculator() {
-  (this.read = function () {
-    this.a = +prompt("Enter first number:", 0);
-    this.b = +prompt("Enter second number", 0);
-  }),
-    (this.sum = function () {
-      return this.a + this.b;
-    }),
-    (this.mul = function () {
-      return this.a * this.b;
-    });
+function Accumulator(startingValue) {
+  this.value = startingValue;
+
+  this.read = function () {
+    this.value += +prompt("Enter next num: ", 0);
+  };
 }
 
-let calc = new Calculator();
-calc.read();
+let accumulator = new Accumulator(1);
 
-alert("Sum=" + calc.sum());
-alert("Mul=" + calc.mul());
+accumulator.read();
+accumulator.read();
+
+alert(accumulator.value);
