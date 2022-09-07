@@ -8,13 +8,21 @@ Constructor, operator "new"
 
 // Solution
 
-let obj = {};
-
-function A() {
-  return obj;
+function Calculator() {
+  (this.read = function () {
+    this.a = +prompt("Enter first number:", 0);
+    this.b = +prompt("Enter second number", 0);
+  }),
+    (this.sum = function () {
+      return this.a + this.b;
+    }),
+    (this.mul = function () {
+      return this.a * this.b;
+    });
 }
-function B() {
-  return obj;
-}
 
-alert(new A() == new B()); // true
+let calc = new Calculator();
+calc.read();
+
+alert("Sum=" + calc.sum());
+alert("Mul=" + calc.mul());
