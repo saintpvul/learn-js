@@ -2,10 +2,8 @@
 
 /* 
 
-Optional chaining '?.'
+symbol
 
 */
 
 // Solution
-
-//complete
