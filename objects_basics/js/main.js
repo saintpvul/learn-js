@@ -2,10 +2,8 @@
 
 /* 
 
-symbol
+object to primitive
 
 */
 
 // Solution
-
-//complete
